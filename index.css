@@ -1,0 +1,575 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+*{
+    margin: 0;
+}
+
+.head{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    color: white;
+    background-color: blue;
+    height: 80px;
+    font-size:20px;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 75px;
+}
+.how{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 210px;
+    font-size: 14px;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.how:hover{
+    background-color: purple;
+}
+
+.how:active{
+    background-color: darkgoldenrod;
+}
+
+.trade{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 45px;
+    font-size: 14px;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trade:hover{
+    background-color: purple;
+}
+
+.trade:active{
+    background-color: darkgoldenrod;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 45px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects:hover{
+    background-color: purple;
+}
+
+.projects:active{
+    background-color: darkgoldenrod;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 45px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about:hover{
+    background-color: purple;
+}
+
+.about:active{
+    background-color: darkgoldenrod;
+}
+
+.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    font-size: 15px;
+    margin-left: 220px;
+    white-space: nowrap;
+}
+
+
+.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 80px;
+    font-size: 15px;
+}
+
+.button:hover{
+    background-color: gray;
+}
+
+.button:active{
+    background-color: red;
+}
+
+.welcome{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-color:  yellow;
+    font-size: 100px;
+    font-weight: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.wel{
+    color: darkblue;
+}
+.trade2{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(35, 58, 35);
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -0.5px;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+.button2container{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(35, 58, 35);
+    padding-left: 100px;
+    padding-top: 45px;
+}
+
+.button2{
+    background-color: white;
+    color:   rgb(35, 58, 35);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 80px;
+    font-size: 15px;
+}
+
+.button2:hover{
+    background-color: gray;
+}
+
+.button2:active{
+    background-color: red;
+}
+
+.img1{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: yellow;
+    padding-top: -200px;
+    margin-top: -550px;
+
+}
+
+.as{
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 39px;
+    margin-left: 700px;
+    margin-top: 160px;
+    margin-bottom: 90px;
+}
+
+.img2{   
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 150px;
+    margin-left: 450px;
+}
+
+.img3{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    width: 75px;
+    margin-left: 450px;
+    margin-left: 700px;
+    margin-top: -108px;
+}
+
+.img4{
+    display: flex;
+    flex-direction: row;
+    height: 145px;
+    width: 145px;
+    margin-top: -110px;
+    margin-left: 980px;
+}
+
+.flexcontainer{
+    display: flex;
+    background-color: deeppink;
+    height: 600px;
+    margin-top: 130px;
+
+}
+
+.overview{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 42px;
+    border-radius: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(35, 58, 35);
+    margin-left: 100px;
+    margin-top: 155px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.what{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:-120px;
+    margin-top: 230px;
+    color:  rgb(35, 58, 35);
+    font-size: 90px;
+}
+
+.the{
+    display: flex;
+    flex-direction: row;
+    padding-top: 160px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listed{
+    color:  rgb(35, 58, 35);
+    margin-left: 550px;
+    margin-top: 160px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainfx{
+    margin-left: 92px;
+    height: 1050px;
+}
+
+.fx1{
+    display: flex;
+    flex-direction: row;
+    height: 310px;
+}
+
+.fx2{
+    display: flex;
+    flex-direction: row;
+    height: 310px;
+    margin-top: 100px;
+    margin-left: 515px;
+    margin-top: -307px;
+}
+
+.fx3{
+    display: flex;
+    flex-direction: row;
+    height: 310px;
+    margin-left: 1030px;
+    margin-top: -310px;
+
+}
+
+.span1{
+    color: purple;
+}
+
+.span2{
+    color:  purple;
+}
+
+.sa{
+    display: flex;
+    flex-direction: row;
+    color:  rgb(35, 58, 35);
+    margin-top: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;   
+}
+
+.south{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: chartreuse;
+}
+
+.renewable{
+    display: flex;
+    flex-direction: row;
+    color:  rgb(35, 58, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 522px;
+    margin-top: -190px;
+}
+
+.energys{
+    margin-left: 522px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: chartreuse;
+
+}
+
+.global{
+    display: flex;
+    flex-direction: row;
+    color:  rgb(35, 58, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 1038px;
+    margin-top: -212px;
+}
+
+.voluntary{
+    margin-top: 20px;
+    margin-left: 1043px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: chartreuse;
+}
+
+.container1{
+    margin-top: -20px;
+}
+
+.learnmore1{
+    cursor: pointer;
+    color: rgb(34, 33, 33);
+    background-color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 36px;
+    padding-left: 36px;
+    border-radius: 50px;
+    border: 3px;
+    border-style: solid;
+    border-color:  rgb(35, 58, 35);
+    font-size: 17px;
+}
+
+.container2{
+    margin-top: -33px;
+    margin-left: 522px;
+}
+
+.learnmore2{
+    cursor: pointer;
+    color: rgb(34, 33, 33);
+    background-color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 36px;
+    padding-left: 36px;
+    border-radius: 50px;
+    border: 3px;
+    border-style: solid;
+    border-color:  rgb(35, 58, 35);
+    font-size: 17px;
+}
+
+.container3{
+    margin-top: -2px;
+    margin-left: 1045px;
+}
+
+.learnmore3{
+    cursor: pointer;
+    color: rgb(34, 33, 33);
+    background-color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 36px;
+    padding-left: 36px;
+    border-radius: 50px;
+    border: 3px;
+    border-style: solid;
+    border-color:  rgb(35, 58, 35);
+    font-size: 17px;
+}
+
+.imagediv{
+    height: 1000px;
+}
+
+.windmill{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgwindmill{
+    height: 700px;
+    margin-left: 100px;
+}
+
+.wefacilitate{
+    margin-top: -760px;
+    font-size:93px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 850px;
+}
+
+
+
+.de{
+    color:  darkred;
+}
+
+.fe{
+    color:  violet;
+}
+
+.agreen{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-top: 33px;
+}
+
+.theseassets{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-top: 33px;
+}
+
+.mark{
+font-size: 24px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 50px;
+}
+
+.markbutton{
+    background-color: rgb(64, 163, 64);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-radius: 500px;
+    border: none;
+}
+
+.ma{
+    margin-top: 3px;
+
+}
+
+.sabutton{
+    background-color: rgb(64, 163, 64);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-radius: 500px;
+    border: none;
+}
+
+.sa{
+    margin-top: 3px;
+}
+
+.sacontainer{
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.pa{
+    margin-left: 80px;
+    margin-top: -50px;
+}
+
+.gf{
+    margin-left: 80px;
+    margin-top: -46px;
+}
+
+.last{
+    background-color: lightpink;
+    height: 470px;
+}
+
+.logo{
+    margin-left: 200px;
+}
+
+.logoimg{
+    height: 70px;
+    margin-top: 190px;
+    margin-left: 50px;
+}
+
+.vr{
+    margin-left: 500px;
+    margin-top: -78px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.recs{
+    margin-top: 30px;
+    color: brown;
+}
+
+.satcc{
+    margin-top: 13px;
+    color: brown;
+}
+
+.gvcc{
+    margin-top: 13px;
+    color: brown;
+}
+
+.by{
+    margin-left: 800px;
+    margin-top: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: red;
+}
+
+.bo{
+    color: blue;
+}
